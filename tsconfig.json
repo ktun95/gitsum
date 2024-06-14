@@ -3,7 +3,6 @@
   "display": "ESM-strictest",
   "compilerOptions": {
     "moduleResolution": "node",
-    "noEmit": true,
     "module": "es2022",
     "lib": [
       "DOM",
@@ -11,7 +10,6 @@
       "es2022"
     ],
     "target": "es2022",
-    "jsx": "react-jsx",
     "strict": true,
     "useDefineForClassFields": true,
     "checkJs": true,
@@ -31,7 +29,8 @@
     "noUnusedParameters": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "outDir": "build"
   },
-  "include": ["./src"]
+  "include": ["src/*"]
 }
 
